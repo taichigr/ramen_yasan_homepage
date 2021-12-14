@@ -1,0 +1,207 @@
+@keyframes SlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100px); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+html,
+body {
+  width: 100%;
+  color: #fff;
+  background-color: #213671;
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: "Noto Sans JP", sans-serif;
+  text-size-adjust: 100%;
+  letter-spacing: 0.1em; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+img {
+  width: 100%;
+  vertical-align: bottom; }
+
+.l-header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2; }
+  @media screen and (max-width: 414px) {
+    .l-header {
+      width: 100%; } }
+
+.l-containts {
+  width: 100%;
+  margin-top: 80px; }
+  @media screen and (max-width: 414px) {
+    .l-containts {
+      width: 100%;
+      padding-left: 5px;
+      padding-right: 5px; } }
+
+.l-main {
+  width: 980px;
+  margin: 0 auto; }
+  @media screen and (max-width: 414px) {
+    .l-main {
+      width: 100%; } }
+
+.l-footer {
+  width: 100%;
+  margin-top: 40px; }
+  @media screen and (max-width: 414px) {
+    .l-footer {
+      width: 100%; } }
+
+.c-main__title {
+  text-align: center;
+  font-size: 38px; }
+  @media screen and (max-width: 414px) {
+    .c-main__title {
+      font-size: 24px; } }
+
+.c-mainArea {
+  width: 100%;
+  height: 70vh;
+  background-color: #A7A3C0;
+  border-radius: 5px; }
+
+.p-header {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  vertical-align: baseline; }
+  .p-header__logoContainer {
+    width: 130px;
+    height: 50px;
+    overflow: hidden;
+    box-sizing: border-box; }
+  @media screen and (max-width: 414px) {
+    .p-header {
+      width: 100%;
+      display: inline; } }
+
+.p-menu {
+  position: absolute;
+  width: 320px;
+  height: 80px;
+  bottom: 0;
+  right: 0; }
+  @media screen and (max-width: 414px) {
+    .p-menu {
+      display: inline-block;
+      width: 100%;
+      height: 30px;
+      position: inherit;
+      justify-content: space-around; } }
+  .p-menu__nav {
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0; }
+  .p-menu__list {
+    display: flex;
+    vertical-align: bottom; }
+    @media screen and (max-width: 414px) {
+      .p-menu__list {
+        justify-content: space-between; } }
+  .p-menu__item {
+    margin: 0 15px;
+    padding-bottom: 5px; }
+  @media screen and (max-width: 414px) {
+    .p-menu {
+      width: 100%;
+      font-size: 12px; } }
+
+.p-ramenMenu {
+  width: 100%;
+  height: 48px;
+  position: relative; }
+  @media screen and (max-width: 414px) {
+    .p-ramenMenu {
+      font-size: 12px; } }
+  .p-ramenMenu__nav {
+    padding: 10px; }
+  .p-ramenMenu__list {
+    display: flex;
+    justify-content: space-between;
+    color: #000; }
+  .p-ramenMenu__title {
+    font-size: 18px;
+    margin-top: 60px;
+    text-align: center; }
+    @media screen and (max-width: 414px) {
+      .p-ramenMenu__title {
+        margin-top: 15px;
+        margin-bottom: 10px; } }
+
+.p-ramenPanel {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 400px;
+  border-radius: 5px;
+  display: flex;
+  background-color: #A7A3C0; }
+  @media screen and (max-width: 414px) {
+    .p-ramenPanel {
+      background-color: #213671;
+      font-size: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+      margin-top: 0;
+      margin-bottom: 0; } }
+  .p-ramenPanel__right {
+    width: 490px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #A7A3C0; }
+    @media screen and (max-width: 414px) {
+      .p-ramenPanel__right {
+        width: 100%;
+        margin-bottom: 20px; } }
+  .p-ramenPanel__left {
+    width: 490px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #A7A3C0; }
+    @media screen and (max-width: 414px) {
+      .p-ramenPanel__left {
+        width: 100%;
+        margin-bottom: 20px; } }
+  .p-ramenPanel__imgArea {
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px; }
+    @media screen and (max-width: 414px) {
+      .p-ramenPanel__imgArea {
+        width: 100%; } }
+  .p-ramenPanel__imgContainer {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    overflow: hidden; }
+  .p-ramenPanel__textArea {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px; }
+    @media screen and (max-width: 414px) {
+      .p-ramenPanel__textArea {
+        margin-top: 15px;
+        margin-bottom: 20px; } }
+
+.p-footer {
+  text-align: center; }
